@@ -114,7 +114,7 @@ function DayViewMobile({ events, onAdd, onEdit, darkMode }) {
       </div>
 
     
-      <div className="space-y-2 overflow-y-scroll max-h-[75vh]">
+      <div className="space-y-2 overflow-y-scroll max-h-[75vh] text-black">
         {times.map((time) => {
           const match = filteredEvents.find((event) => event.time === time)
           return (
